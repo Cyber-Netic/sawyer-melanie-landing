@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vaporwave Romance — Лендинг книги</title>
+
+  <!-- Google Fonts: заголовочный + текстовый -->
+  <!-- Позже ты сможешь заменить шрифт Play на свой Pixel Emulator -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&family=Inter:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Навигация -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="logo">
+        <!-- Здесь потом можно вставить маленький логотип -->
+        <span class="logo-mark">SM</span>
+        <span class="logo-text">Sawyer &amp; Melanie</span>
+      </div>
+      <nav class="nav">
+        <a href="#about">О книге</a>
+        <a href="#characters">Герои</a>
+        <a href="#mood">Атмосфера</a>
+        <a href="#author">Об авторе</a>
+        <a href="#subscribe" class="nav-cta">Подписка</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-overlay"></div>
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <p class="hero-kicker">Новый романтический триллер</p>
+          <h1 class="hero-title">
+            [НАЗВАНИЕ КНИГИ]<br />
+            <span class="hero-title-sub">vaporwave love story</span>
+          </h1>
+          <p class="hero-logline">
+            Когда уличные гонки, мафиозные сделки и старые раны сталкиваются
+            с внезапной любовью, скорость уже не спасает. Чтобы выжить,
+            им придётся научиться доверять друг другу.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#excerpt" class="btn btn-primary">Читать отрывок</a>
+            <a href="#subscribe" class="btn btn-ghost">Подписаться на новости</a>
+          </div>
+
+          <div class="hero-tags">
+            <span class="pill">🔥 уличные гонки</span>
+            <span class="pill">💔 страх близости</span>
+            <span class="pill">🌆 ночной город</span>
+            <span class="pill">💿 vaporwave</span>
+          </div>
+        </div>
+
+        <div class="hero-cover">
+          <div class="cover-frame">
+            <div class="cover-placeholder">
+              <span>Здесь будет<br />обложка книги</span>
+            </div>
+            <p class="cover-note">
+              Обложку можно будет загрузить позже как обычную картинку или
+              нарисованный постер.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- О КНИГЕ -->
+    <section id="about" class="section section-alt">
+      <div class="container">
+        <h2 class="section-title">О книге</h2>
+        <div class="two-column">
+          <div class="column">
+            <p>
+              Ночной мегаполис, пустые трассы за чертой города, неоновый свет,
+              который превращает шрамы в блёклые вспышки. Он — гонщик,
+              бегущий от себя и семьи. Она — стилистка, привыкшая скрывать
+              раны под идеальными образами.
+            </p>
+            <p>
+              Их случайная встреча втягивает обоих в игру скорости, мафии
+              и старых секретов, где каждая сделка — риск, а каждая близость —
+              опасность. Чем быстрее они мчатся, тем меньше шансов спрятаться
+              от собственных чувств.
+            </p>
+          </div>
+          <div class="column">
+            <h3 class="subheading">Если тебе близко:</h3>
+            <ul class="feature-list">
+              <li>истории о медленно растущем доверии и ранах прошлого;</li>
+              <li>vaporwave-эстетика: розовое небо, фиолетовые тени, ретро-неон;</li>
+              <li>уличные гонки, мафиозные интриги, найденная семья;</li>
+              <li>герои, которые учатся не бежать, а оставаться рядом.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ГЕРОИ -->
+    <section id="characters" class="section">
+      <div class="container">
+        <h2 class="section-title">Главные герои</h2>
+        <p class="section-intro">
+          Двое, которые привыкли спасаться бегством — каждый по-своему.
+        </p>
+
+        <div class="cards-grid">
+          <article class="card character-card">
+            <h3 class="card-title">Савьер (Sawyer)</h3>
+            <p class="card-tagline">гонщик, беглец, вечный «я сам»</p>
+            <p>
+              Скорость — его единственный язык свободы. Он чинит и дорабатывает
+              машины, как будто собирает себе новое тело, в котором не так больно
+              чувствовать. Чем ближе люди подбираются к его настоящему, тем
+              быстрее он исчезает.
+            </p>
+            <ul class="card-list">
+              <li>боится уязвимости больше, чем пули;</li>
+              <li>прячет заботу за сарказмом и глупыми шутками;</li>
+              <li>считает, что его любовь всегда опасна для других.</li>
+            </ul>
+          </article>
+
+          <article class="card character-card">
+            <h3 class="card-title">Мелани</h3>
+            <p class="card-tagline">стилистка, контролёр, девочка-шторм</p>
+            <p>
+              Она умеет собирать людей по кусочкам — одеждой, макияжем, образом.
+              Себя собрать сложнее: травма и страх быть брошенной держат её
+              на безопасной дистанции. Она уходит первой, чтобы никто не ушёл
+              от неё.
+            </p>
+            <ul class="card-list">
+              <li>боится доверять, но отчаянно нуждается в опоре;</li>
+              <li>любит порядок, чтобы внутри не было хаоса;</li>
+              <li>учится говорить «останься» вместо «я не нуждаюсь в тебе».</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ATMOSPHERE -->
+    <section id="mood" class="section section-alt">
+      <div class="container">
+        <h2 class="section-title">Атмосфера истории</h2>
+        <p class="section-intro">
+          Представь плейлист из vaporwave, шорох шин по мокрому асфальту
+          и розово-фиолетовый закат над трассой.
+        </p>
+
+        <div class="mood-grid">
+          <div class="mood-item">
+            <h3>Ночной город</h3>
+            <p>Неоновые вывески, тени переулков, окна высоток как разбросанные пиксели.</p>
+          </div>
+          <div class="mood-item">
+            <h3>Пустые шоссе</h3>
+            <p>Фары, растворяющиеся в тумане, и ощущение, что мир существует только для них двоих.</p>
+          </div>
+          <div class="mood-item">
+            <h3>Секреты и мафия</h3>
+            <p>Сделки в полутени, семейные связи, от которых не так просто отрезать себя.</p>
+          </div>
+          <div class="mood-item">
+            <h3>Vaporwave-сон</h3>
+            <p>Розовые облака, фиолетовые тени, ретро-эстетика начала нулевых и лёгкая ностальгия.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- УСЛОВНЫЙ ОТРЫВОК (якорь для кнопки) -->
+    <section id="excerpt" class="section">
+      <div class="container">
+        <h2 class="section-title">Небольшой отрывок</h2>
+        <p class="section-intro">
+          Здесь позже можно будет разместить реальный фрагмент текста.
+        </p>
+        <div class="excerpt-box">
+          <p>
+            «Асфальт блестел так, будто кто-то пролил над городом океан и забыл
+            забрать воду. Савьер глушит мотор, и вдруг становится тихо — слишком
+            тихо для человека, который всегда живёт в реве двигателя. Мелани
+            сидит рядом, зажав пальцы в кулак так, что ногти впиваются в кожу.
+            Её мир в очередной раз может рухнуть. Его — тоже. И впервые за долгое
+            время они оба не хотят бежать».
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ОБ АВТОРЕ -->
+    <section id="author" class="section section-alt">
+      <div class="container author-grid">
+        <div class="author-avatar">
+          <div class="avatar-circle">
+            <span>Фото автора<br />будет здесь</span>
+          </div>
+        </div>
+        <div class="author-text">
+          <h2 class="section-title">Об авторе</h2>
+          <p>
+            Здесь ты сможешь написать пару тёплых абзацев о себе: как любишь
+            рассказывать истории про уязвимых героев, скорость, города и
+            найденную семью. Можно упомянуть любовь к рисованию, комиксам и
+            vaporwave-эстетике — всё, что создаёт настроение книги.
+          </p>
+          <p>
+            Этот блок легко расширяется: можно добавить ссылки на соцсети,
+            список других проектов или мини-таймлайн создания романа.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ПОДПИСКА -->
+    <section id="subscribe" class="section">
+      <div class="container">
+        <h2 class="section-title">Будь первой, кто узнает о релизе</h2>
+        <p class="section-intro">
+          Оставь свой e-mail, и я напишу, когда выйдет книга, откроется предзаказ
+          или появится новый отрывок.
+        </p>
+
+        <form class="subscribe-form" action="#" method="post">
+          <label for="email" class="sr-only">E-mail</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="твоя@почта.com"
+            required
+          />
+          <button type="submit" class="btn btn-primary">Подписаться</button>
+        </form>
+
+        <p class="subscribe-note">
+          Форма пока декоративная — позже можно подключить реальную рассылку
+          через сервис (например, MailerLite или другую платформу).
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <!-- ФУТЕР -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>
+        © <span id="year"></span> Имя автора. Все права защищены.
+      </p>
+      <div class="footer-links">
+        <a href="#" aria-label="Instagram">Instagram</a>
+        <a href="#" aria-label="TikTok">TikTok</a>
+        <a href="#" aria-label="Webtoon">Webtoon</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Маленький скрипт только для года -->
+  <script>
+    const yearSpan = document.getElementById("year");
+    if (yearSpan) {
+      yearSpan.textContent = new Date().getFullYear();
+    }
+  </script>
+</body>
+</html>
